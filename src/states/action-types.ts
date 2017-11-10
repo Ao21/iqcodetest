@@ -1,0 +1,5 @@
+
+export const TOGGLE_SEARCH = 'TOGGLE_SEARCH';
+export const SEARCH_FILTER = 'SEARCH_FILTER';
+export const ALPHABET_FILTER = 'ALPHABET_FILTER';
+export const SELECT_PROFILE = 'SELECT_PROFILE';

@@ -1,0 +1,36 @@
+#page-nav,
+.page-nav {
+	background-color: $color-blue;
+	color: white;
+
+	.page-nav {
+		.row {
+      display: flex;
+      
+		}
+
+		&__item {
+			flex: 1 1 auto;
+			align-content: center;
+			display: flex;
+			flex-flow: column;
+			justify-content: center;
+			align-items: center;
+			padding: 36px 24px 24px;
+			position: relative;
+
+			&.selected:after {
+				content: "";
+				position: absolute;
+				bottom: 0;
+				width: 0; 
+				height: 0; 
+				border-left: 15px solid transparent;
+				border-right: 15px solid transparent;
+				
+				border-bottom: 15px solid white;
+				
+			}
+		}
+	}
+}

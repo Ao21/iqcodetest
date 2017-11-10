@@ -1,0 +1,63 @@
+.icon {
+	&__book {
+		background: url('/imgs/sprite.png') no-repeat 0 -56px;
+		width: 54px;
+		height: 54px;
+	}
+	&__speedometer {
+		background: url('/imgs/sprite.png') no-repeat -71px -54px;
+		width: 64px;
+		height: 56px;
+	}
+	&__boxes {
+		background: url('/imgs/sprite.png') no-repeat -150px -53px;
+		width: 56px;
+		height: 57px;
+	}
+	&__circles {
+		background: url('/imgs/sprite.png') no-repeat -221px -50px;
+		width: 61px;
+		height: 61px;
+	}
+	&__person {
+		background: url('imgs/sprite.png') no-repeat -300px -55px;
+		width: 52px;
+		height: 56px;
+	}
+	&__people {
+		background: url('/imgs/sprite.png') no-repeat -375px -55px;
+		width: 64px;
+		height: 56px;
+	}
+	&__puzzle {
+		background: url('/imgs/sprite.png') no-repeat -452px -52px;
+		width: 58px;
+		height: 58px;
+	}
+	&__magnifying {
+		background: url('/imgs/sprite.png') no-repeat -650px -50px;
+		width: 42px;
+		height: 43px;
+	}
+	&__plane {
+		background: url('/imgs/sprite.png') no-repeat -291px -1px;
+		width: 44px;
+		height: 42px;
+	}
+	&__cog {
+		background: url('/imgs/sprite.png') no-repeat -590px -50px;
+		width: 36px;
+		height: 36px;
+	}
+	&__logo {
+		background: url('/imgs/sprite.png') no-repeat -451px -350px;
+		width: 118px;
+		height: 118px;
+		border-radius: 50%;
+	}
+	&__hamburger {
+		background: url('/imgs/sprite.png') no-repeat -241px 0;
+		width: 39px;
+		height: 27px;
+	}
+}

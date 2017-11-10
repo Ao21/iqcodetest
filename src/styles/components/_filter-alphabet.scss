@@ -1,0 +1,13 @@
+filter-alphabet,
+.filter-alphabet {
+	&__letter {
+		float: left;
+		padding: 5px 5px;
+
+		&.selected {
+			background-color: $color-light-blue;
+      border-radius: 50%;
+      color: white;
+		}
+	}
+}

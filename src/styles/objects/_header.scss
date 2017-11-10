@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    align-items: center;
+
+    .header {
+        float: left;
+        height: 100%;
+    }
+    .navbar-nav {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    &__search {
+        margin-right: 6px;
+    }
+    &__profile{
+        height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 2px solid $color-light-blue;
+        img {
+            height: 100%;
+        }
+    }
+}
