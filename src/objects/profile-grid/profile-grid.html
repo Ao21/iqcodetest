@@ -2,4 +2,7 @@
     <profile ng-repeat="profile in profileGrid.profiles | letterFilter:profileGrid.alphabetFilter | filter:profileGrid.searchFilter  | limitTo:profileGrid.max track by $index"
         data="profile" selected="profileGrid.selectedProfiles" index="$index"></profile>
 </div>
-<button ng-click="profileGrid.loadMore()" class="btn btn-default">Load More</button>
+
+<div class="row profile-grid__buttons">
+    <button ng-click="profileGrid.loadMore()" class="btn btn-default profile-grid__button">Load More</button>
+</div>

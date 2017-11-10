@@ -1,0 +1,13 @@
+profile-grid,
+.profile-grid {
+    &__buttons {
+        margin: 24px 0;
+        display: flex;
+    }
+    &__button {
+        border: none;
+        background-color: $color-green;
+        color: white;
+        margin: 0 auto;
+    }
+}
